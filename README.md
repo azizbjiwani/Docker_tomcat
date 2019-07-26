@@ -18,6 +18,6 @@ sudo docker run -it -p 8080:8080 -d tomcat_cal
 sudo docker ps  
 http://35.173.251.4:8080/Calendar/Calendar.html  -- Works  
 sudo docker exec -it 676a74683172 /bin/bash  
-apt-get update  
-apt-get -y install vim    
+#apt-get update  
+#apt-get -y install vim    
 vim /usr/local/tomcat/logs/catalina.log    
