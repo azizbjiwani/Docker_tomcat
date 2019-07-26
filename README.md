@@ -7,4 +7,9 @@ sudo docker run -it --rm -p 8080:8080 -v /home/ec2-user/tomcat/Calendar.war:/usr
 sudo docker ps  
 sudo docker images  
 http://35.173.251.4:8080/Calendar/Calendar.html -- working  
- 
+sudo docker stop a38236e1fed8  
+sudo docker images  
+sudo docker rmi tomcat  
+  
+#Using Dockerfile  
+
